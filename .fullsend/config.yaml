@@ -10,11 +10,6 @@ tracker:
                 - fullsend-ai/fullsend
                 - fullsend-ai/agents
 runtime: dummy
-agents:
-    - name: good-local
-      source: harness/good-local.yaml
-    - name: bad-hash
-      source: https://raw.githubusercontent.com/fullsend-ai-test/bt-01a1d587edb3719a8d1ce33ae9dcdf10-allow-137d21cf-url-harness-host/main/harness/bad-hash.yaml#sha256=0000000000000000000000000000000000000000000000000000000000000000
 allowed_remote_resources:
     - https://raw.githubusercontent.com/fullsend-ai/fullsend/
     - https://raw.githubusercontent.com/fullsend-ai/agents/
